@@ -836,7 +836,7 @@
 // Increase the slowdown divisor for larger buffer sizes.
 #define SLOWDOWN
 #if ENABLED(SLOWDOWN)
-  #define SLOWDOWN_DIVISOR 0
+  #define SLOWDOWN_DIVISOR 8
 #endif
 
 /**
